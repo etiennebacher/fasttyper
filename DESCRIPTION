@@ -1,14 +1,20 @@
 Package: fasttyper
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Train yourself to type R code quickly
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: 
+    person(given = "Etienne",
+           family = "Bacher",
+           email = "etienne.bacher@protonmail.com",
+	   role = c("aut", "cre"))
+Description: It is very useful to type code quickly, whatever the language. With this 
+    tool, you can train yourself to type R code quickly in the RStudio console.
+    Several levels are available, so that you can progressively add difficulty.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
     cli
 RoxygenNote: 7.1.1
+URL: https://github.com/etiennebacher/fasttyper
+BugReports: https://github.com/etiennebacher/fasttyper/issues
