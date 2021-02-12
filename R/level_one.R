@@ -1,6 +1,6 @@
-#' Title
+#' Level one test
 #'
-#' @param n
+#' @param n Number of questions
 #'
 level_one <- function(n = 2) {
 
