@@ -1,8 +1,9 @@
 #' Level one test
 #'
 #' @param n Number of questions
-#'
-level_one <- function(n = 2) {
+#' @name levels
+#' @export
+level_one <- function(n = 5) {
 
   init_level(1, n)
 
@@ -41,8 +42,9 @@ level_one <- function(n = 2) {
 }
 
 
-
-level_two <- function(n = 2) {
+#' @name levels
+#' @export
+level_two <- function(n = 5) {
 
   init_level(2, n)
 
@@ -82,8 +84,9 @@ level_two <- function(n = 2) {
 
 }
 
-
-level_three <- function(n = 2) {
+#' @name levels
+#' @export
+level_three <- function(n = 5) {
 
   init_level(3, n)
 
