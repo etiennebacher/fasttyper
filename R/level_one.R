@@ -98,6 +98,7 @@ level_three <- function(n = 5) {
 
       n_functions <- sample(c(1:3), 1)
 
+      function_calls <- c()
       for (i in 1:n_functions) {
         function_name <- sample(functions, 1)
         args_2 <- sample(arguments, 1)
